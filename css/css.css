@@ -1,0 +1,161 @@
+body {
+    background-color: #CACACA;  
+   	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    font-size: medium;
+	margin: 0;
+}
+
+.header
+{
+	background-color:#3296D5;
+	text-align: center;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+		}
+.foother
+{
+	background-color:#3296D5;
+	text-align: center;
+	width: 100%;
+	bottom: 0;
+    left: 0;
+	    }
+.logo
+{
+	display:flex;
+	position: relative;
+	padding-top: 30px;
+	width: 100%;
+	background-color:darkgoldenrod;
+	background-image:url("../img/logo.png");
+	justify-content: center;
+  	align-items: center;
+	    }
+@media (max-width: 758px) {
+    .logo {
+        padding-top: 60px;
+    }
+}
+ 
+.logotekst {
+ background: black;
+color:aliceblue;
+	text-decoration-color: white;
+text-shadow: 2px;
+	justify-content: center;
+display:inline-block;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.container {
+	  display: grid;
+	  grid-template-columns: auto,auto,auto;
+	  text-align: center;
+	    
+	}
+.kolom {
+	width: 29%;
+	text-align: justify;
+	line-height: 25px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+.italic
+{
+	font-style:italic ;
+    }
+.vet
+{
+	font-weight: bold;
+    }
+.contact
+{
+	background-color:yellow;
+}
+.card-img-top
+{
+ max-width: 80%;
+}
+.socials
+{
+max-height: 20px;
+}
+
+  .folder-container {
+            width: 100%;
+            padding: 10px;
+            position: relative;
+            background-color: #FFC107;
+            border-top-right-radius: 30px 20px;
+	  text-align:left;
+        }
+.folder-header {
+			width: 30%;
+            height: 50px;
+            background-color: #FFA000;
+            border-top-right-radius: 30px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+.accordion-body{
+	background-color: #FFC107;
+	border: none;
+}
+.accordion-button
+{
+width: 30%;
+background-color: #FFA000;	
+}
+.accordion-item
+{
+background-color: #FFC107;
+	border: none;
+}
+.accordion-header
+{
+
+	border: none;
+}
+#nav li {
+	display: inline;
+	width: 180px;
+	font: bold 16px Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	padding: 0px 10px;	
+		}
+.cvfoto{
+	max-width: 20%;
+	
+	}
+.carousel-item
+{
+	max-height: 6%;
+}
+#nav li a {
+	color: #FFF;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: white;
+	border-radius: 5px;	
+	}
+
+#nav li a:hover {
+	background:black;
+	padding: 0px 10px;
+}
+.checkbox-container {
+    width: 50%;
+    margin: 0 auto; 
+}
+.carousel-caption.d-none.d-md-block p {
+    background: black;
+    padding: 5px; 
+    display: inline-block;
+}
